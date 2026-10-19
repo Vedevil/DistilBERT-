@@ -4,8 +4,7 @@ A correctness-first SystemVerilog implementation of a **six-layer DistilBERT
 encoder and sentiment classifier**, with an AXI-Lite control plane, read-only
 DDR interface and PYNQ host driver for a future ZCU104 deployment.
 
-**Status: functionally verified in RTL simulation. No completed bitstream,
-Vivado implementation/timing closure or physical-board run is claimed.**
+**Status: functionally verified in RTL simulation.**
 
 This is the **clean, code-only repository**, not a workspace backup. Trained
 weights, old step-delivery folders, bulky traces, cloud receipts and build products
