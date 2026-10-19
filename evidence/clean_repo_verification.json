@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "scope": "fresh checks in cleaned code-only layout",
+  "Python_tests": 63,
+  "historical_test_suite_copied_wholesale": false,
+  "Python_version": "3.13.16",
+  "numpy_version": "2.3.5",
+  "pytest_version": "9.0.3",
+  "RTL_simulator": "Icarus Verilog12.0",
+  "RTL_simulations": {
+    "reader": {
+      "pass": true,
+      "top": "axi_word_reader_tb",
+      "elapsed_host_seconds": 0.01648149300001478,
+      "board_tested": false
+    },
+    "control": {
+      "pass": true,
+      "top": "zcu104_control_tb",
+      "elapsed_host_seconds": 0.07098315999996885,
+      "board_tested": false
+    },
+    "demo": {
+      "pass": true,
+      "top": "zcu104_protocol_tb",
+      "elapsed_host_seconds": 8.871023811000043,
+      "board_tested": false
+    }
+  },
+  "original_production_RTL_bytes_unchanged": true,
+  "PYNQ_driver_bytes_unchanged": true,
+  "filefree_demo_bytes_unchanged": true,
+  "external_import_and_payload_export_verified": {
+    "words": 43119362,
+    "bytes": 172477448,
+    "sha256": "5b4c47e8496800d7eb1c1cc4aa01c988dccf4bcbf868ba35de7bb4de766b16a2",
+    "trained_data_in_repository": false
+  },
+  "Vivado_BD_executed": false,
+  "board_tested": false,
+  "GitHub_Actions_executed": false
+}
