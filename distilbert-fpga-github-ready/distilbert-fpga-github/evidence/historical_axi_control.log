@@ -1,2 +1,0 @@
-PASS zcu104_control_tb cycles=406 checks=16 actual_core_abort_error_recovery
-tb/zcu104_control_tb.sv:103: $finish called at 4060000 (1ps)
