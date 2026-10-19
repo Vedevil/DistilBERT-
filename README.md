@@ -132,10 +132,3 @@ it does not compile RTL.
 transport drains. Never terminate/restart the owning Python/Jupyter process or
 reload the overlay while unquiesced; a coordinated full platform reset may be
 required. See the register map for the exact contract.
-
-## Publish this repository
-
-[Publishing guide](docs/PUBLISH.md) covers GitHub Desktop and command-line steps.
-This folder is ready to commit; it has not been published remotely. Review
-[license/provenance](LICENSE_NOTICE.md) before public distribution. No license for
-your project code has been invented or assigned automatically.
