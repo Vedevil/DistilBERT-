@@ -1,0 +1,2 @@
+PASS axi_word_reader_tb cycles=162 checks=11 AXIreads=8
+tb/axi_word_reader_tb.sv:44: $finish called at 1620000 (1ps)

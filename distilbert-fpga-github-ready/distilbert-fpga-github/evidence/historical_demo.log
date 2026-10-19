@@ -1,0 +1,31 @@
+PASS axi_word_reader_tb cycles=162 checks=11 AXIreads=8
+PASS zcu104_control_tb cycles=406 checks=16 actual_core_abort_error_recovery
+START layer5_checkpoint_tb N=2 HEADS=1 DIM=3
+CHECKED autonomous layer=0 transaction=0 clock=12085
+START layer5_checkpoint_tb N=2 HEADS=1 DIM=3
+CHECKED autonomous layer=1 transaction=0 clock=23650
+START layer5_checkpoint_tb N=2 HEADS=1 DIM=3
+CHECKED autonomous layer=2 transaction=0 clock=35220
+START layer5_checkpoint_tb N=2 HEADS=1 DIM=3
+CHECKED autonomous layer=3 transaction=0 clock=46778
+START layer5_checkpoint_tb N=2 HEADS=1 DIM=3
+CHECKED autonomous layer=4 transaction=0 clock=58352
+START layer5_checkpoint_tb N=2 HEADS=1 DIM=3
+CHECKED autonomous layer=5 transaction=0 clock=69904
+PASS head frame=0 recorded=1 cycles=69572 logits=[-71592,-524367] prediction=0
+START layer5_checkpoint_tb N=2 HEADS=1 DIM=3
+CHECKED autonomous layer=0 transaction=1 clock=81764
+START layer5_checkpoint_tb N=2 HEADS=1 DIM=3
+CHECKED autonomous layer=1 transaction=1 clock=93318
+START layer5_checkpoint_tb N=2 HEADS=1 DIM=3
+CHECKED autonomous layer=2 transaction=1 clock=104892
+START layer5_checkpoint_tb N=2 HEADS=1 DIM=3
+CHECKED autonomous layer=3 transaction=1 clock=116444
+START layer5_checkpoint_tb N=2 HEADS=1 DIM=3
+CHECKED autonomous layer=4 transaction=1 clock=128025
+START layer5_checkpoint_tb N=2 HEADS=1 DIM=3
+CHECKED autonomous layer=5 transaction=1 clock=139589
+PASS head frame=1 recorded=1 cycles=69568 logits=[-71592,-524367] prediction=0
+PASS zcu104_head_checker logits=[-71592,-524367] prediction=0
+PASS zcu104_protocol_tb transactions=2 cycles=139836 AXIreads=7762 ARstalls=1025 polls=270 layers=12
+/home/user/step16-deliverables/step16_axi_ddr_sv_only.sv:16962: $finish called at 1398360000 (1ps)

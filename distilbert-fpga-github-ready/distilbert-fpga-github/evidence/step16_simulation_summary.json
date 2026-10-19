@@ -1,0 +1,154 @@
+{
+  "provenance": "selected historical Step16 simulation results; not newly executed in this repository",
+  "historical_regression": {
+    "passed": 414,
+    "deselected": 1
+  },
+  "cases": {
+    "tiny_axi_final": {
+      "pass": true,
+      "testbench_cycles": 139430,
+      "simulation_host_seconds": 9.161018278000029,
+      "fresh_encoder_layers": 12,
+      "transactions": 2,
+      "AXI64_singlebeat_read_transactions": 7762,
+      "logits_q11": [
+        -71592,
+        -524367
+      ],
+      "prediction": 0,
+      "mask": [
+        1,
+        0
+      ],
+      "all_encoder_stage_CSVs_checked": 108,
+      "all_encoder_stage_rows_checked": 552,
+      "synthesis": false,
+      "board": false
+    },
+    "smoke_n1_allmasked": {
+      "pass": true,
+      "testbench_cycles": 86798,
+      "simulation_host_seconds": 0.28892272600023716,
+      "fresh_encoder_layers": 12,
+      "transactions": 2,
+      "AXI64_singlebeat_read_transactions": 6242,
+      "logits_q11": [
+        -71635,
+        -524813
+      ],
+      "prediction": 0,
+      "mask": [
+        0
+      ],
+      "all_encoder_stage_CSVs_checked": 108,
+      "all_encoder_stage_rows_checked": 276,
+      "synthesis": false,
+      "board": false
+    },
+    "smoke_n4_mixed": {
+      "pass": true,
+      "testbench_cycles": 271526,
+      "simulation_host_seconds": 0.8844470410003851,
+      "fresh_encoder_layers": 12,
+      "transactions": 2,
+      "AXI64_singlebeat_read_transactions": 10804,
+      "logits_q11": [
+        -71592,
+        -524367
+      ],
+      "prediction": 0,
+      "mask": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "all_encoder_stage_CSVs_checked": 108,
+      "all_encoder_stage_rows_checked": 1104,
+      "synthesis": false,
+      "board": false
+    },
+    "smoke_max16_allmasked": {
+      "pass": true,
+      "testbench_cycles": 1837070,
+      "simulation_host_seconds": 5.919125328000064,
+      "fresh_encoder_layers": 12,
+      "transactions": 2,
+      "AXI64_singlebeat_read_transactions": 29056,
+      "logits_q11": [
+        -71635,
+        -524813
+      ],
+      "prediction": 0,
+      "mask": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_encoder_stage_CSVs_checked": 108,
+      "all_encoder_stage_rows_checked": 4416,
+      "synthesis": false,
+      "board": false
+    },
+    "actual_unmasked_3": {
+      "pass": true,
+      "testbench_cycles": 527794814,
+      "simulation_host_seconds": 941.79453354,
+      "fresh_encoder_layers": 6,
+      "transactions": 1,
+      "AXI64_singlebeat_read_transactions": 53480834,
+      "logits_q11": [
+        -8768,
+        9536
+      ],
+      "prediction": 1,
+      "mask": [
+        1,
+        1,
+        1
+      ],
+      "all_encoder_stage_CSVs_checked": 54,
+      "all_encoder_stage_rows_checked": 96804,
+      "synthesis": false,
+      "board": false
+    },
+    "actual_masked_3": {
+      "pass": true,
+      "testbench_cycles": 527794814,
+      "simulation_host_seconds": 949.0257846719999,
+      "fresh_encoder_layers": 6,
+      "transactions": 1,
+      "AXI64_singlebeat_read_transactions": 53480834,
+      "logits_q11": [
+        1279,
+        -609
+      ],
+      "prediction": 0,
+      "mask": [
+        1,
+        1,
+        0
+      ],
+      "all_encoder_stage_CSVs_checked": 54,
+      "all_encoder_stage_rows_checked": 96804,
+      "synthesis": false,
+      "board": false
+    }
+  },
+  "board_tested": false,
+  "Vivado_executed": false
+}
